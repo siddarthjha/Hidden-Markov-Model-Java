@@ -26,6 +26,9 @@ Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0
 Emission Probabilities B: a matrix that represents the probability of seeing a specific observable given a hidden state. For example, the probability of Clean on a Sunny day is 0.1, whereas the probability of Clean on a Rainy day is 0.45.
 
 This is all very nice, but immediately we are faced with three problems:
+
 The Likelihood problem (Forward-Backward)
+
 The Decoding problem (Viterbi)
+
 The Learning problem (Waum-Belch)
