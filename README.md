@@ -7,6 +7,8 @@ In probability theory, a Markov model is a stochastic model used to model random
 Example: Lets Assume,
 To start off, a Hidden Markov Model consists of the following properties:
 
+Note: Please refer to images uploaded
+
 Hidden States S: in the example above the hidden states are Sunny and Rainy, and they get grouped into a set S.
 
 Observables O: Paint, Clean, Shop and Bike. They get grouped into a set O.
