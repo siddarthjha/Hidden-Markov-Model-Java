@@ -22,9 +22,13 @@ To start off, a Hidden Markov Model consists of the following properties:
 
 **Transition Probabilities A**: a matrix that represents the probability of transitioning to another state given the current state. For example, if the current state is Sunny the probability that the day after is Sunny as well is 0.8, whereas the probability that the day after is Rainy is 0.2.
 
+![Transition probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/1.jpeg)
+
 Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0.6, while the probability that tomorrow is Sunny is 0.4.
 
 **Emission Probabilities B**: a matrix that represents the probability of seeing a specific observable given a hidden state. For example, the probability of Clean on a Sunny day is 0.1, whereas the probability of Clean on a Rainy day is 0.45.
+
+[]()
 
 This is all very nice, but immediately we are faced with three problems:
 
