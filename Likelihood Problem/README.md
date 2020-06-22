@@ -1,1 +1,7 @@
+# Forward Algorithm
 
+
+
+
+
+# Backward Algorithm
