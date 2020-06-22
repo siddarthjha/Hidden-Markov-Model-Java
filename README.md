@@ -35,8 +35,8 @@ Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0
 
 This is all very nice, but immediately we are faced with three problems:
 
-* The Likelihood problem (Forward-Backward)
+* [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Forward.java) (Forward-Backward)
 
-* The Decoding problem (Viterbi)
+* [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Viterbi.java) (Viterbi)
 
 * The Learning problem (Waum-Belch)
