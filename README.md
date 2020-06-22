@@ -31,7 +31,7 @@ Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0
 
 **Emission Probabilities B**: a matrix that represents the probability of seeing a specific observable given a hidden state. For example, the probability of Clean on a Sunny day is 0.1, whereas the probability of Clean on a Rainy day is 0.45.
 
-[]()
+![Emission Probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/2.png)
 
 This is all very nice, but immediately we are faced with three problems:
 
