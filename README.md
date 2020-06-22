@@ -33,6 +33,7 @@ Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0
 
 ![Emission Probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/2.png)
 
+<br>
 This is all very nice, but immediately we are faced with three problems:
 
 * [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Forward.java) (Forward-Backward)
