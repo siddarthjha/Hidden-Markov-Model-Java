@@ -8,7 +8,7 @@ Implementation of Forward-Backward and Viterbi Algorithm in Java
 **Example:** Lets Assume,
 To start off, a Hidden Markov Model consists of the following properties:
 
-**Note:** Please refer to images 
+![States photo](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/1.jpeg)
 
 
 **Hidden States S**: in the example above the hidden states are Sunny and Rainy, and they get grouped into a set S.
