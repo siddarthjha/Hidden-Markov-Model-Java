@@ -3,7 +3,7 @@ Implementation of Forward-Backward and Viterbi Algorithm in Java
 
 **Hidden Markov Model (HMM)** is a statistical Markov model in which the system being modeled is assumed to be a Markov process with unobserved (i.e. hidden) states.
 
-In probability theory, a Markov model is a stochastic model used to model randomly changing systems. It is assumed that future states depend only on the current state, not on the events that occurred before it (that is, it assumes the Markov property).
+* In probability theory, a Markov model is a stochastic model used to model randomly changing systems. It is assumed that future states depend only on the current state, not on the events that occurred before it (that is, it assumes the Markov property).
 
 **Example:** Lets Assume,
 To start off, a Hidden Markov Model consists of the following properties:
