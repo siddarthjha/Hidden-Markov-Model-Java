@@ -1,1 +1,1 @@
-# Viterbi ALgorithm
+# Viterbi Algorithm
