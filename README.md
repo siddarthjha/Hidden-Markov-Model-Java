@@ -20,7 +20,10 @@ To start off, a Hidden Markov Model consists of the following properties:
 
 **Note**: every row of the following matrices must add up to 1 since they represent a probability.
 
-**Transition Probabilities A**: a matrix that represents the probability of transitioning to another state given the current state. For example, if the current state is Sunny the probability that the day after is Sunny as well is 0.8, whereas the probability that the day after is Rainy is 0.2.
+**Transition Probabilities A**: a matrix that represents the probability of transitioning to another state given the current state.
+
+###### For example,
+if the current state is Sunny the probability that the day after is Sunny as well is 0.8, whereas the probability that the day after is Rainy is 0.2.
 
 ![Transition probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/1.jpeg)
 
