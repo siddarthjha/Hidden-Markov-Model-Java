@@ -36,12 +36,12 @@ This final equation tells us that to find the probability of an observation sequ
 
 **Initialization**
 
-![Initialization]()
+![Initialization](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/6.png)
 
 **Recursion**
 
-![Recursion]()
+![Recursion](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/7.png)
 
 **Termination**
 
-![Termination]()
+![Termination](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/8.png)
