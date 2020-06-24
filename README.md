@@ -38,7 +38,7 @@ the probability of Clean on a Sunny day is 0.1, whereas the probability of Clean
 <br>
 This is all very nice, but immediately we are faced with three problems:
 
-* [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Forward.java) (Forward-Backward)
+* [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Likelihood%20Problem/Forward.java) (Forward-Backward)
 
 * [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Viterbi.java) (Viterbi)
 
