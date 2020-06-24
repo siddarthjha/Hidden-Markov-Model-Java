@@ -16,7 +16,6 @@ The above equation means that the first forward variable is calculated by multip
 
 **Recursion**
 
-Forward algorithm recursion equation
 ![Recursion](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/3.png)
 
 
