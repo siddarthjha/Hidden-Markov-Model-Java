@@ -38,10 +38,17 @@ This final equation tells us that to find the probability of an observation sequ
 
 ![Initialization](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/6.png)
 
+What this simple equation is telling us is that at time T (at the end of the observation sequence) the backward variables of every state is equal to 1. Simple as that.
+
 **Recursion**
 
 ![Recursion](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/7.png)
 
+The equation above tells us to sum up all the multiplications of the transition probability from the current State i to the next State j, times the emission probability of the observable O at time t+1 from the next State j, times the backward variable of the next State j at time t+1.
+
 **Termination**
 
 ![Termination](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/8.png)
+
+What this equation wants us to do is to sum the multiplications of the initial probability π of state i, times the emission probability b of the observable O at time t=1 from state i, times the backward variable at time t=1 of state i.
+
