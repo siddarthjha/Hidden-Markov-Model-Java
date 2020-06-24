@@ -40,6 +40,6 @@ This is all very nice, but immediately we are faced with three problems:
 
 * [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Likelihood%20Problem/Forward.java) (Forward-Backward)
 
-* [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Viterbi.java) (Viterbi)
+* [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Decoding%20Problem/Viterbi.java) (Viterbi)
 
 * The Learning problem (Waum-Belch)
