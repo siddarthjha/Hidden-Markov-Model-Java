@@ -21,3 +21,10 @@ ACTIVITY DIAGRAM is basically a flowchart to represent the flow from one activit
 A sequence diagram shows object interactions arranged in time sequence. 
 * It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario.
 
+**Collaboration Diagram**
+
+A collaboration diagram, also known as a communication diagram, is an illustration of the relationships and interactions among software objects in the Unified Modeling Language (UML). 
+* These diagrams can be used to portray the dynamic behavior of a particular use case and define the role of each object.
+
+**Process Flow**
+
