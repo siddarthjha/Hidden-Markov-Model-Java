@@ -37,5 +37,7 @@ A collaboration diagram, also known as a communication diagram, is an illustrati
 A process flow diagram (PFD) is a diagram commonly used in chemical and process engineering to indicate the general flow of plant processes and equipment. 
 * The PFD displays the relationship between major equipment of a plant facility and does not show minor details such as piping details and designations.
 
-****
+**Data Flow**
 
+A data flow diagram (DFD) maps out the flow of information for any process or system. 
+* It uses defined symbols like rectangles, circles and arrows, plus short text labels, to show data inputs, outputs, storage points and the routes between each destination.
