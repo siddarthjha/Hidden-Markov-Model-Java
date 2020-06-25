@@ -30,9 +30,12 @@ Unlike in the Forward and Backward algorithms, in the Viterbi algorithm we’re 
 
 **Termination**
 
-![Termination](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/11.png)
+![Termination](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/12.png)
 
-![](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/12.png)
+This equation represents the probability of the entire state sequence up to point T + 1 having been produced given the observation and the HMM’s parameters.
+* So, we need to find the maximized value among all Viterbi variables at time T, i.e. all the variables of every state at the end of the observation sequence.
+
+![](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/1.png)
 
 **Backtracking**
 ![Backtracking](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/13.png)
