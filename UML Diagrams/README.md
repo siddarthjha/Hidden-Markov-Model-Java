@@ -16,4 +16,8 @@ An object diagram is a UML structural diagram that shows the instances of the cl
 ACTIVITY DIAGRAM is basically a flowchart to represent the flow from one activity to another activity. 
 * The activity can be described as an operation of the system. The basic purpose of activity diagrams is to capture the dynamic behavior of the system.. It is also called object-oriented flowchart.
 
-**
+**Sequence Diagram**
+
+A sequence diagram shows object interactions arranged in time sequence. 
+* It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario.
+
