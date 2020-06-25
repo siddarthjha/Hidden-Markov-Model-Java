@@ -37,6 +37,12 @@ This equation represents the probability of the entire state sequence up to poin
 
 **Backtracking**
 
-![Backtracking](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/13.png)
-
 The start of the backtrace corresponds to the last state of the hidden state sequence, and is given by the ψ equation at the termination step above
+* The equation below is meant to find the hidden state sequence by backtracing through the ψ arrays.
+
+![Backtracking](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/11.png)
+
+* The q*s are the states of the state sequence we’re trying to find. So, when t+1 is equal to T the state q* is the last state Sunny.
+* Now, to find q* at time t we’re basically searching in the array ψ of the state q*t+1 at time t+1.
+
+
