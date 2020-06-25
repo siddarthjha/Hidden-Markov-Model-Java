@@ -16,10 +16,16 @@ that makes uses of a dynamic programming trellis.
 * To retrieve the state sequence we also need to keep track of the argument which maximized for each t and j, i.e. the previous state that maximized the result of the equation.
 * We do this via the array ψ, and in the initialization step the first ψ variable of every state will be equal to 0 because no specific argument coming from the initial probability maximized the value of the first state.
 
+![](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/13.png)
+
+
 
 **Recursion**
 
 ![Recursion](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/10.png)
+
+Unlike in the Forward and Backward algorithms, in the Viterbi algorithm we’re not going to sum up the results of all the multiplications. Instead we’re going to find the maximum value among the multiplication results and assign that to the new Viterbi variable.
+* The multiplication consists of the previous Viterbi variable of state i, times the transition probability from state i to j, times the emission probability from state j to observation O.
 
 
 **Termination**
