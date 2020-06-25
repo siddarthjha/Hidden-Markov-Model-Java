@@ -13,3 +13,7 @@ An object diagram is a UML structural diagram that shows the instances of the cl
 
 **Activity Diagram**
 
+ACTIVITY DIAGRAM is basically a flowchart to represent the flow from one activity to another activity. 
+* The activity can be described as an operation of the system. The basic purpose of activity diagrams is to capture the dynamic behavior of the system.. It is also called object-oriented flowchart.
+
+**
