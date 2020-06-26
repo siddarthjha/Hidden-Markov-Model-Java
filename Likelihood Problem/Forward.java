@@ -65,34 +65,4 @@ public class Forward
 		
 		return prob;
 	}
-	/*
-	
-	public static void main(String[] args)
-	{
-		
-		out.println("We have enetered in implementation phase");
-		int obs[]             = {3, 3, 2, 2, 1, 1, 3, 1, 3};
-		int states[]           = {0, 1, 2, 3};               // 0-Mon, 1-Tue, 2-Wed, 3-Thu.
-		double start_prob[]   = {1, 1, 1, 1};
-		double trans_prob[][] = 
-		{
-			                    {0, 0.8, 0.2, 0},
-							    {0, 0.6, 0.3, 0.1},
-								{0, 0.4, 0.5, 0.1},
-								{0, 0, 0, 0} 
-		};
-		double emiss_prob[][] = 
-		{
-			                	{0, 0, 0},
-								{0.2, 0.4, 0.4},
-								{0.5, 0.4, 0.1},
-								{0, 0, 0}
-		};
-		double final_prob     = algo(obs, states, start_prob, trans_prob, emiss_prob);
-		out.println("The final probability for the given observation is  "+ final_prob);
-		
-	}
-	*/
-	
-}
 
