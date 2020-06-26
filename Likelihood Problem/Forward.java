@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Forward
 {
 	
-	// obs        ->Given observation for which likelihood has to be calculated.
-	// states     ->The various states HMM goes through.
-	// start_prob ->The start probability of each state.
-	// trans_prob ->The transition probability from state to state.
-	// emiss_prob ->The emission probability assosciated with each observation.
-	// prob       ->The likelihood probability of the input observation sequence.
+	@param obs        ->Given observation for which likelihood has to be calculated.
+	@param states     ->The various states HMM goes through.
+	@param start_prob ->The start probability of each state.
+	@param trans_prob ->The transition probability from state to state.
+	@param emiss_prob ->The emission probability assosciated with each observation.
+	@param prob       ->The likelihood probability of the input observation sequence.
 	
 	public static double compute(int obs[], int states[], double start_prob[], double trans_prob[][], double emiss_prob[][]) throws ArrayIndexOutOfBoundsException
 	{
