@@ -29,25 +29,6 @@ class HM
 		double final_prob     = obj.compute(obs, states, start_prob, trans_prob, emiss_prob);
 		out.println("The final probability for the given observation is  "+ final_prob);
 		
-		// Viterbi object creation
-		
-		Viterbi obj1 = new Viterbi();
-		out.println("------Viterbi Algorithm------");
-		int final_path[] 	  = obj1.compute(obs, states, start_prob, trans_prob, emiss_prob);
-		out.println("The resultant path of first observation ");
-		for(int path: final_path)
-		{
-			if(path == 1)
-				out.print("Tue ");
-			else if(path == 2)
-				out.print("Wed ");
-			else
-			{
-				out.print("Thu ");
-			}
-		}
-		out.println();
-		
 		
 		// Backward object creation
 		
