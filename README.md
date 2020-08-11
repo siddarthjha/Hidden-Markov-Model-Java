@@ -25,7 +25,7 @@ To start off, a Hidden Markov Model consists of the following properties:
 ###### For example,
 if the current state is Sunny the probability that the day after is Sunny as well is 0.8, whereas the probability that the day after is Rainy is 0.2.
 
-![Transition probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/1.jpeg)
+![Transition probability](images/1.jpeg)
 
 Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0.6, while the probability that tomorrow is Sunny is 0.4.
 
