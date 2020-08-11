@@ -8,7 +8,7 @@ Implementation of Forward-Backward and Viterbi Algorithm in Java
 **Example:** Lets Assume,
 To start off, a Hidden Markov Model consists of the following properties:
 
-![States photo](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/5.png)
+![States photo](images/5.png)
 
 
 **Hidden States S**: in the example above the hidden states are Sunny and Rainy, and they get grouped into a set S.
@@ -33,14 +33,14 @@ Similarly if today is Rainy, the probability that tomorrow is Rainy as well is 0
 ###### For example,
 the probability of Clean on a Sunny day is 0.1, whereas the probability of Clean on a Rainy day is 0.45.
 
-![Emission Probability](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/images/2.png)
+![Emission Probability](images/2.png)
 
 <br>
 This is all very nice, but immediately we are faced with three problems:
 
-* [The Likelihood problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Likelihood%20Problem/Forward.java) (Forward-Backward)
+* [The Likelihood problem](Likelihood%20Problem/Forward.java) (Forward-Backward)
 
-* [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Decoding%20Problem/Viterbi.java) (Viterbi)
+* [The Decoding problem](Decoding%20Problem/Viterbi.java) (Viterbi)
 
 * The Learning problem (Waum-Belch)
 
