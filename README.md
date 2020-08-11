@@ -43,3 +43,13 @@ This is all very nice, but immediately we are faced with three problems:
 * [The Decoding problem](https://github.com/siddarthjha/Hidden-Markov-Model-Java/blob/master/Decoding%20Problem/Viterbi.java) (Viterbi)
 
 * The Learning problem (Waum-Belch)
+
+
+## How to Contribute
+
+This is an open project and contribution in all forms are welcomed.
+Please follow these [Contribution Guidelines](CONTRIBUTING.md)
+
+## Code of Conduct
+
+Adhere to the GitHub specified community [code](CODE_OF_CONDUCT.md).
